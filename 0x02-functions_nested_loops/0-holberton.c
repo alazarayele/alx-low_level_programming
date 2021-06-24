@@ -1,9 +1,5 @@
-#include <unistd.h>
+#include "holberton.h"
 
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
 /**
  * main -  prints Holberton, followed by a new line
  * Return: Always 0 (Success)
@@ -24,3 +20,4 @@ int main(void)
 
 	return (0);
 }
+
